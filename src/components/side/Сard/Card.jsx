@@ -6,18 +6,19 @@ import Button from '../../base/Button/Button';
  * Компонент карточки. 
  */
 const Card = (props) => {
-    const { productName, productAmount } = props;
+    const { productName, productAmount, productPrice } = props;
     return <section className="product-card">
         <div>
             <div className="top-panel">
                 <span>{productName}</span>
             </div>
             <div className="middle-container">
-                <span>{productAmount}</span>
+                <span>{productPrice}</span>
             </div>
             <div className="controller-container">
                 <Button text="-"></Button>
-                <Button text="+1"></Button>
+                <span className="contoller-amount">{productAmount}</span>
+                <Button text="+"></Button>
             </div>
         </div>
     </section>
