@@ -1,0 +1,26 @@
+    
+.header-panel {
+    background-color: white;
+    color: black;
+    top: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 16px;
+}
+
+/* @media (max-width: 1080px) { 
+    .top-panel {
+        width: 100%;
+        margin: 0 auto;
+    }
+} */
+
+.header-panel .header-panel__project-name {
+    font-weight: bolder;
+    font-size: 32px;
+}
