@@ -8,7 +8,6 @@ import Button from '../../base/Button/Button';
 const Card = (props) => {
     const { productName, productAmount, productPrice } = props;
     return <section className="product-card">
-        <div>
             <div className="top-panel">
                 <span>{productName}</span>
             </div>
@@ -20,7 +19,6 @@ const Card = (props) => {
                 <span className="contoller-amount">{productAmount}</span>
                 <Button text="+"></Button>
             </div>
-        </div>
     </section>
 }
 

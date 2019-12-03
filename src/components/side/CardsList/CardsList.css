@@ -1,8 +1,8 @@
-.main-panel{
+.CardsList-panel{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin-top: 82px;
     height: 100%;
     max-width: 70%;
+    left: 40px;
 }

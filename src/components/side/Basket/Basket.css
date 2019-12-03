@@ -1,0 +1,11 @@
+.basket-panel{
+    width: 605px;
+    margin-top: 10px;
+    height: 100%;
+    border: 3px solid black;
+    color: black;
+    position: fixed;
+    display: flex;
+    left: 75%;
+    /* margin-left: 70%; */
+}

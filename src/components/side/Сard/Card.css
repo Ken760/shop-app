@@ -3,6 +3,8 @@
   height: 300px;
   margin: 5px;
   border: 3px solid black;
+  margin-left: 20px;
+  margin-top: 9px;
 }
 .top-panel {
   width: 100%;
