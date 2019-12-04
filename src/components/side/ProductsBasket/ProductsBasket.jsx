@@ -3,15 +3,17 @@ import './ProductsBasket.css';
 import Button from '../../base/Button/Button'
 
 
-const Basket = () => {
-    return <section className="basket-container">
-        <header className="header-basket">Корзина</header>
-        <div className="middle-basket-container">
-            <span>Сыр</span>
-            <Button text="-"></Button>
-            <Button text="+"></Button>
+const ProductsBasket = (props) => {
+    const { productName, productAmount } = props;
+    return <section className="ProductsBasket-contaner">
+        <div className="ProductsBasket-middle">
+            <span>{productName}: {productAmount}</span>
         </div>
+            <div className="button-container">
+                <Button text="-"></Button>
+                <Button text="+"></Button>
+            </div>
     </section>
 }
 
-export default Basket;
+export default ProductsBasket;

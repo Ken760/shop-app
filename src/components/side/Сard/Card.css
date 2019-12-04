@@ -1,10 +1,12 @@
 .product-card {
-  width: 300px;
+  width: 250px;
   height: 300px;
   margin: 5px;
   border: 3px solid black;
   margin-left: 20px;
   margin-top: 9px;
+  border-radius: 25px;
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
 }
 .top-panel {
   width: 100%;
@@ -14,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
 }
 .middle-container{
   width: 100%;
@@ -32,6 +35,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0px 0px 25px 25px;
+
 }
 .contoller-amount{
   border: 2px solid white; 
