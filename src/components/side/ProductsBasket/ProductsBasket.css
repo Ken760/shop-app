@@ -9,14 +9,15 @@
 }
 .button-container{
     position: relative;
-    width: 100px;
+    width: 130px;
     display: flex;
-    border: 1px solid black;
+    border: 1.5px solid black;
     justify-content: center;
     align-items: center;
+    
 }
 .ProductsBasket-middle{
-    border: 1px solid black;
+    border: 1.5px solid black;
     width: 366px;
     height: 50px;
     position: relative;

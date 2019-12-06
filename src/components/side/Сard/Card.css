@@ -1,28 +1,34 @@
 .product-card {
-  width: 250px;
-  height: 300px;
+  width: 240px;
+  height: 290px;
+  /* width: 15em; */
+  /* height: auto; */
   margin: 5px;
   border: 3px solid black;
-  margin-left: 20px;
-  margin-top: 9px;
-  border-radius: 25px;
-  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  margin-left: 18px;
+  margin-top: 18px;
+  /* border-radius: 25px; */
+  /* box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3); */
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  position: relative;
+  left: 33px;
 }
 .top-panel {
   width: 100%;
   height: 100px;
-  background-color: white;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 25px;
+  /* border-radius: 25px 25px 0px 0px; */
+  border-radius: 10px 10px 0px 0px;
+
 }
 .middle-container{
   width: 100%;
   height: 100px;
-  background-color: blue;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,12 +36,13 @@
 .controller-container{
   width: 100%;
   height: 100px;
-  background-color: red;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0px 0px 25px 25px;
+  /* border-radius: 0px 0px 25px 25px; */
+  border-radius: 0px 0px 10px 10px;
+
 
 }
 .contoller-amount{

@@ -17,7 +17,9 @@ const CardsList = () => {
       <Card productName="Огурец" productPrice="55р/кг" productAmount="5"/>
       <Card productName="Картошка" productPrice=" 8р/кг" productAmount="1000"/>
       <Card productName="Лук" productPrice="12р/кг" productAmount="1"/>
- 
+      <Card productName="Огурец" productPrice="55р/кг" productAmount="5"/>
+      <Card productName="Картошка" productPrice=" 8р/кг" productAmount="1000"/>
+      <Card productName="Лук" productPrice="12р/кг" productAmount="1"/>
     </main>
 
 }
