@@ -9,6 +9,8 @@
   background-color: #04112b;
   color: white;
   z-index: 10;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.3);
+
 }
 
 @media (max-width: 1080px) { 

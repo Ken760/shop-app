@@ -10,8 +10,9 @@ const ProductsBasket = (props) => {
             <span>{productName}: {productAmount}</span>
         </div>
             <div className="button-container">
-                <Button text="-"></Button>
-                <Button text="+"></Button>
+            <span className="contoller-amount">0</span>
+                <Button><span>-</span></Button>
+                <Button><span>+</span></Button>
             </div>
     </section>
 }
