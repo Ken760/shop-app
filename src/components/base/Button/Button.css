@@ -10,6 +10,8 @@
   border: 0;
   border-radius: 5px;
   transition: all 0.15s ease;
+  width: 35px;
+  height: 35px;
 }
 .simple-button:hover {
   transform: scale(1.01);

@@ -1,11 +1,11 @@
 import React from 'react';
 import './MainPanel.css';
 import CardList from '../CardsList/CardsList'
-import Basket from '../Basket/Basket'
+import Cart from '../Cart/Cart'
 
 const MainPanel = () => {
     return <main className="main-panel">
-         <Basket/>
+         <Cart/>
          <CardList/>
     </main>
 
